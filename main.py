@@ -8,12 +8,12 @@ def wait(time_of_sleep):
 def element(method,name):
     return  driver.find_element(method,name)
 
-print("Bienvenue dans bot twitch pour commencer il faut rejoindre le server discord vous devre rentrer le lien du salon bot ainsi que la chaine twitch les bots sont bloqué à 50 tout les 5 minutes faites en bonne usage ;)\nsdfsdf")
+print("Welcome to bot twitch to start you must join the discord server you must enter the bot lounge link as well as the twitch channel bots are blocked at 50 every 5 minutes made in good use ;)")
 link = "https://discord.com/channels/849720413537173534/849720413750820912"
 
 if len(link) == 0:
-    print("veuillez entrer un lien ou le programme se fermera")
-    link = input("le liens du salon ;)")
+    print("please enter a link or the program will close ;) ")
+    link = input("the link of the discord room ;)")
 
 else:
     chanel = input("le liens du salon ;)")
