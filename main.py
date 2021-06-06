@@ -23,7 +23,7 @@ else:
         data = json.load(json_data)
         element(By.NAME,"email").send_keys(data['email'])
         element(By.NAME,"password").send_keys(data['password'])
-    driver.find_element(By.CSS_SELECTOR,".contents-18-Yxp").click()
+    element(By.CSS_SELECTOR,".contents-18-Yxp").click()
     wait(10)
     while True:
         message = element(By.CSS_SELECTOR,".markup-2BOw-j.slateTextArea-1Mkdgw.fontSize16Padding-3Wk7zP")
