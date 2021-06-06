@@ -5,7 +5,7 @@ import time
 import json
 def wait(time_of_sleep):
     return  time.sleep(time_of_sleep)
-print("Bienvenue dans bot twitch pour commencer il faut rejoindre le server discord vous devre rentrer le lien du salon bot ainsi que la chaine twitch les bots sont bloqué à 50 tout les 5 minutes faites en bonne usage ;)\nsdfsdf")
+print("Bienvenue dans bot twitch pour commencer il faut rejoindre le server discord vous devre rentrer le lien du salon bot ainsi que la chaine twitch les bots sont bloqué à 50 tout les 5 minutes faites en bonne usage ;)")
 link = input("le liens du salon ;)")
 chanel = input("la chaine twitch ;)")
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
