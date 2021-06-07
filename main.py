@@ -31,7 +31,7 @@ else:
         wait(1)
         message.send_keys(Keys.ENTER)
         message.send_keys(Keys.ENTER)
-        wait(300)
+        wait(120)
         continue
 
 
